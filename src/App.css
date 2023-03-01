@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(23, 122, 138);
+}
 
 .my-div {
   background-color: rgb(247, 242, 242, 0.4);
@@ -29,6 +32,6 @@ h3 {
 }
 
 button:hover {
-  background-color: rgb(98, 202, 181);
+  background-color: #ffb400;
   cursor: pointer;
 }
