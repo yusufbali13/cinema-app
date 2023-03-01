@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(23, 122, 138);
+  /* background-color: rgb(23, 122, 138); */
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/916/339/783/movies-2560x1440-batman-cover-wallpaper-preview.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover;
 }
 
 .my-div {
