@@ -6,7 +6,7 @@ export const data = [
     rate: 8.611,
     tags: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
     date: 2022,
-    img: "../../public/img/img1.jpg",
+    img: "./img/img1.jpg",
   },
   {
     id: 2,
