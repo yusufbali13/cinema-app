@@ -1,13 +1,13 @@
 import React from "react";
 import StarRatingComponent from "react-star-rating-component";
 
-const FilmInfo = ({ dataNew, SetDataNew, show, setShow }) => {
+const FilmInfo = ({ dataNew }) => {
   return (
     <div className="col-12 col-sm-9">
       {dataNew.map(({ id, img, title, rate, body, date, tags }) => (
         <>
           <div key={id}>
-            <img src={img} alt="" className="img" />
+            <img src={img} alt="" className="img" width="200" />
             <h3>{title}</h3>
             <span className="texts">{body}</span>
           </div>

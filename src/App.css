@@ -16,7 +16,7 @@ h3 {
   color: rgb(133, 90, 35);
 }
 
-.activeBtn {
+.activeBtn:hover {
   color: rgb(220, 53, 69) !important;
   border-bottom: 3px solid rgb(220, 53, 69) !important;
 }

@@ -1,10 +1,9 @@
-function FilmYear({ setDataNew, dataNew, setShow, show, data }) {
+function FilmYear({ setDataNew, setShow, show, dataNew, data }) {
   console.log(data);
 
   const handleClick = (date) => {
     setShow(true);
     setDataNew(data.filter((item) => item.date === date));
-    console.log(dataNew);
   };
 
   return (
@@ -18,15 +17,15 @@ function FilmYear({ setDataNew, dataNew, setShow, show, data }) {
         {data.map((item) => (
           <button
             key={item.id}
+            onClick={() => handleClick(item.date)}
             className={
-              show
+              item.id === dataNew.id
                 ? `activeBtn border-0 px-2 m-2 fs-4 fw-bold text-secondary`
                 : ` border-0 px-2 m-2 fs-4 fw-bold text-secondary`
             }
             id="v-pills-home-tab"
             type="button"
             role="tab"
-            onClick={() => handleClick(item.date)}
           >
             {item.date}
           </button>
