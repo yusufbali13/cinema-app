@@ -15,6 +15,7 @@ export const data = [
     rate: 7.564,
     tags: ["Action", "Adventure", "Fantasy", "Sci - Fi"],
     date: 2009,
+    img: "./img/img2.jpg",
   },
   {
     id: 3,
@@ -23,6 +24,7 @@ export const data = [
     rate: 8.7,
     tags: ["Drama"],
     date: 1994,
+    img: "./img/img3.jpg",
   },
   {
     id: 4,
@@ -31,5 +33,6 @@ export const data = [
     rate: 8.714,
     tags: ["Crime", "Drama"],
     date: 1972,
+    img: "./img/img4.jpg",
   },
 ];
