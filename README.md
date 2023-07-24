@@ -1,1 +1,1 @@
-https://cinema-ass.netlify.app
+https://cinema-app1.netlify.app/
